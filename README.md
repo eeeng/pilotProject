@@ -17,4 +17,4 @@ python:
   electrode pos:
     high-pass filter 1: 30 Hz
   
-    ![fig jpg](/home/ahmet/Downloads/fig.jpg)
+    ![fig image](https://github.com/eeeng/pilotProject/blob/main/Supp/fig.jpg)
