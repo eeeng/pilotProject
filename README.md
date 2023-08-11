@@ -18,3 +18,6 @@ python:
     high-pass filter 1: 30 Hz
   
 ![fig image](https://github.com/eeeng/pilotProject/blob/main/Supp/fig.jpg)
+
+
+for8chtriedthenwillbe3-6-12chs
