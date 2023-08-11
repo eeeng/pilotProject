@@ -12,10 +12,10 @@ int main(void)
 {      
     gpio_t *gpio_in;
     gpio_in = gpio_new();
-    gpio_open (gpio_in, "/dev/gpiochip0", 26, GPIO_DIR_IN);
+    gpio_open (gpio_in, "/dev/tty0", 26, GPIO_DIR_IN);
     spi_t *spi;
     spi = spi_new();
-    int spi_open = spi_open_advanced(spi, "/dev/spidev0.0", 0x01, 1000000, MSB_FIRST, 8, 1);      
+    int spi_open = spi_open_advanced(spi, "/dev/tty0.0", 0x01, 1000000, MSB_FIRST, 8, 1);      
     void write_reg(uint8_t reg_address, uint8_t val_hex)
            {
            uint8_t zero3[3] = {0x00, 0x00,0x00}; 
@@ -82,7 +82,7 @@ while (1)
       }
       else
       { 
-          printf("ADS1299 do not send data");
+          printf("sens dont send data");
       }  
       
  }
