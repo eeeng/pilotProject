@@ -4,7 +4,6 @@ import itasca as it
 it.command("python-reset-state false")
 
 
-
 dockWidget = it.dockWidget("Demo GUI","",True)
 dockWidget = shiboken2.wrapInstance(int(dockWidget),QtWidgets.QDockWidget)
 widget = dockWidget.widget()
